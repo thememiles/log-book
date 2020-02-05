@@ -1,0 +1,134 @@
+/*============================================================
+   Red Background Color
+   ============================================================*/
+   .btn-colored, .menu-bar .sub-menu li a:hover, .tagline, .post-tag, .owl-nav .owl-prev, .owl-nav .owl-next,
+   .owl-carousel.style2 .share-post, .owl-carousel.style3 .owl-dots .owl-dot.active, .owl-carousel.style3 .owl-dots .owl-dot:hover,
+   .menu-bar.style-3, .menu-bar.style-4 .sub-menu,
+   .owl-carousel.style4 .slide-content .indata .p-link,
+   .img-caption,
+   .blog-detail .post-meta,
+   .menu-bar.style-5 .sub-menu,
+   .blog-inner-gallery .slide .overlay-data .icon-magnifying-glass,
+   .blog-tags ul li a:hover,
+   .tm-post-nav .arrow,
+   .btn-dark:hover,
+   .tm-pagination ul li.active a,
+   .tm-pagination ul li:hover a,
+   #backTop,
+   .dl-menuwrapper button,
+   .tm-modal .modal-heading
+   {
+     background-color: #e73e3b;
+   }
+
+/*============================================================
+   Red Background Color With Transparency
+   ============================================================*/
+   .tm-categories-style-1 .cat-box:hover > .overlay, .tm-categories-style-2 .cat-box:hover > .overlay,
+   .tm-categories-style-3 .cat-box:hover > .overlay,
+   .tm-breadcrumb:before, .tm-related-posts .related-post .post-img:after,
+   .widget.instagram-feeds ul li:before
+   {
+     background-color: rgba(231,62,59, 0.7);
+   }
+
+/*============================================================
+   Red Font and Icons Color
+   ============================================================*/
+   a:hover, .tm-topbar.white .social-icons ul li a:hover,
+   .widget.twitter-feeds .feeds-list li a,
+   .widget.twitter-feeds .feeds-list li p span,
+   .tm-blog-list.full .con .share-post .icon-share,
+   .widget.recent-comments .comment-posts .comment-content a:hover,
+   .tm-author-detail .full-detail a
+   {
+     color: #e73e3b ;
+   }
+
+/*============================================================
+   Red Border Color
+   ============================================================*/
+   .footer.centered .about-company hr,
+   blockquote,
+   textarea.form-control:focus, textarea.form-control:active, input.form-control:active, input.form-control:focus
+   {
+     border-color: #e73e3b;
+   }
+
+/*============================================================
+   Dark Font and Icons Color
+   ============================================================*/
+   .tm-topbar.white .social-icons ul li a, .tm-topbar.white .search-area .lang-change .icon-worlwide, .tm-topbar.white .search-area .lang-change select,
+   .widget.twitter-feeds .feeds-list li a:hover
+   {
+     color: #282828;
+   }
+
+/*============================================================
+   Dark Background Color
+   ============================================================*/
+   .btn-colored:hover, .tm-topbar,
+   .btn-dark,
+   .search-area .lang-change select,
+   .menu-bar .sub-menu,
+   .owl-nav .owl-prev:hover, .owl-nav .owl-next:hover,
+   .footer.basic, .owl-carousel.style2 .slide-content,
+   .tm-categories-style-2 .cat-box .content, .footer.centered,
+   .tm-categories-style-3 .content,
+   .menu-bar.style-4,
+   .menu-bar.style-4 .sub-menu li a:hover,
+   .owl-carousel.style4 .slide-content .indata .p-link:hover,
+   .menu-bar.style-5, .menu-bar.style-5 .sub-menu li a:hover,
+   .blog-inner-gallery .slide .overlay-data .icon-magnifying-glass:hover,
+   .tm-post-nav .arrow:hover,
+   #backTop:hover,
+   .dl-menuwrapper .dl-menu
+   {
+     background-color: #282828;
+   }
+
+/*============================================================
+   Transition
+   ============================================================*/
+   a, .menu-bar ul li a, .btn, .tm-topbar .social-icons ul li a, .menu-bar .sub-menu, .menu-bar .sub-menu *,.share-post ul li,
+   .tm-categories-style-1 .cat-box .overlay, .owl-nav .owl-prev, .owl-nav .owl-next,
+   footer .social-bar ul li a span,
+   footer .social-bar ul li,
+   .tm-categories-style-2 .cat-box .overlay,
+   .owl-carousel.style3 .owl-dots .owl-dot,
+   .tm-categories-style-3 .overlay, .owl-carousel.style4 .slide-content, .owl-carousel.style4 .slide-content *,
+   .blog-inner-gallery .slide .overlay-data .icon-magnifying-glass,
+   .blog-inner-gallery .slide .overlay-data,
+   .tm-lightbox,
+   .tm-related-posts .related-post .post-img:after,
+   .widget.recent-comments .comment-posts .comment-thumbnail img,
+   .widget.instagram-feeds ul li:before, .share-post ul,
+   #backTop
+   {
+    transition:all ease 0.5s;
+    -webkit-transition:all ease 0.5s;
+    -moz-transition:all ease 0.5s;
+    -o-transition:all ease 0.5s;
+    -ms-transition:all ease 0.5s;	
+  }
+
+  /*** Selection Color ****/
+
+  ::selection {
+    background: #e73e3b;
+    color:#ffffff;
+  }
+  ::-webkit-selection {
+    background: #e73e3b;
+    color: #ffffff;
+  }
+  ::-moz-selection {
+    background: #e73e3b;
+    color: #ffffff;
+  }
+
+  h1.site-title a{
+    font-size: 50px;
+    line-height: 1.5;
+    color: #e73e3b;
+  }
